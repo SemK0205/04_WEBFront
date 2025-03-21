@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12_HTML 연습문제3</title>
+</head>
+
+<body>
+
+  <form>
+    <fieldset>
+      <legend>필수 입력 정보</legend>
+      <table>
+        <tr>
+          <th>ID</th>
+          <td>
+            <input placeholder="아이디 10글자 이내" max="10"> <button>중복 확인</button>
+          </td>
+        </tr>
+        <tr>
+          <th>비밀번호</th>
+          <td colspan="2">
+            <input type="password" placeholder="영문, 숫자, 특수문자 포함 8자 이상" min="8" size="30">
+          </td>
+        </tr>
+        <tr>
+          <th>비밀번호 확인</th>
+          <td colspan="2">
+            <input type="password" size="30">
+          </td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>
+            <input type="email">
+            <form>
+              <select>
+                <option>직접입력</option>
+                <option>@gamil.com</option>
+                <option>@naver.com</option>
+                <option>@daum.net</option>
+              </select>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>추가 정보</legend>
+      프로필 사진 <input type="file"><br>
+      성별 :<label> <input type="radio" name="gender"> 남자</label>
+      <label><input type="radio" name="gender"> 여자</label><br>
+      생년월일 : <input type="date"> <br>
+      취미<br>
+      <input type="checkbox">야구&nbsp;&nbsp;
+      <input type="checkbox">농구&nbsp;&nbsp;
+      <input type="checkbox">축구 <br>
+      <input type="checkbox">공부&nbsp;&nbsp;
+      <input type="checkbox">음악감상<br>
+      <input type="checkbox">기타 <input>
+
+      <br><br>
+      자기소개<br>
+      <textarea rows="8" cols="80" style="resize: none;"></textarea>
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
