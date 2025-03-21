@@ -24,6 +24,7 @@ p[name="name-1"] {
 #parent-ul > li {
   background-color: orange;
 }
+
 #parent-ul > li > span {
   background-color: red;
 }
