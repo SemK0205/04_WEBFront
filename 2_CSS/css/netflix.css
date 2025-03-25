@@ -3,7 +3,7 @@
   height: 300px;
   position: relative;
   display: inline;
-  margin-left: 6%;
+  margin-left: 60px;
   margin-right: 60px;
 }
 
@@ -22,8 +22,8 @@
   height: 300px;
   position: relative;
   display: inline;
-  
- }
+  margin-right: 60px;
+  }
 
 .ch-2 {
   -webkit-text-stroke: 5px white;
