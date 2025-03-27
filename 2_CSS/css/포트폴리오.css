@@ -197,6 +197,10 @@ a {
   flex-basis: 5%;
 }
 
+button {
+  cursor: pointer;
+}
+
 #title {
   display: -webkit-box;
   -webkit-line-clamp: 1;
