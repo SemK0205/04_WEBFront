@@ -20,7 +20,7 @@ function check1() {
   // === (동일 비교 연산자 : 값, 자료형이 모두 같은 경우)
 
   // undefined == null (이 두개의 값은 동일하다고 인식함)
-  // nudefined === null (자료형도 같은지 비교 undefined 자료형과 ouject가 같냐?)
+  // nudefined === null (자료형도 같은지 비교 undefined 자료형과 object가 같냐?)
 
   // === -> 값, 자료형이 모두 같은 경우 true
   // !== -> 값, 자료형이 모두 다른 경우 true
