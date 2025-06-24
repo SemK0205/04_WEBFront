@@ -1,0 +1,44 @@
+.main {
+  border: 1px solid black;
+  width: 100%;
+}
+th,td {
+  border: 1px solid black;
+}
+th {
+  background-color: orange;
+  color: white;
+}
+td {
+  background-color: lightgoldenrodyellow;
+}
+
+.title{
+  width: 50%;
+}
+
+#tableButton {
+  width: 100%;
+}
+
+#button {
+  width: 10px;
+}
+
+.no {
+  width: 50px;
+}
+
+.input2 {
+ height: 150px;
+}
+
+input {
+  margin-bottom: 7px;
+  width: 300px;
+}
+
+.formButton {
+  margin-left: 130px;
+}
+
